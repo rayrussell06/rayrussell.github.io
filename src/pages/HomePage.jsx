@@ -83,7 +83,7 @@ export default function HomePage() {
 {/* Right: Image */}
             <div className="col pe-md-6">
               <img
-                src="/rayrussellcodingimage.png"
+                src="/rayrussell.github.io/rayrussellcodingimage.png"
                 alt="Ray Russell coding"
                 className="img-fluid rounded shadow"
                 style={{ height: 'auto', width: '100%'}}
