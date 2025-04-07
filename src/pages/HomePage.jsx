@@ -64,9 +64,9 @@ export default function HomePage() {
                 Hello <span className="wave" role="img" aria-label="wave">👋</span>
               </h1>
               <h2 className="fs-2 fw-semibold mb-2 text-light">
-                I'm <span style={{ color: '#404725' }}>Ray Russell</span>
+                I'm <span style={{ color: '#cd8328' }}>Ray Russell</span>
               </h2>
-              <h3 className="fs-4 mt-4" style={{ color: '#3a5e6a' }}>
+              <h3 className="fs-2 mt-5" style={{ color: '#cd8328' }}>
                 <Typewriter
                   words={['Software Developer', 'ASP.NET', 'C#', 'JavaScript' ,'React','Sql Server','Node.js','GraphQL','REST API']}
                   loop
@@ -83,9 +83,9 @@ export default function HomePage() {
 {/* Right: Image */}
             <div className="col pe-md-6">
               <img
-                src="/rayrussell.github.io/rayrussellcodingimage.png"
+                src="/rayrussellcoding.png"
                 alt="Ray Russell coding"
-                className="img-fluid rounded shadow"
+                className="img-fluid "
                 style={{ height: 'auto', width: '100%'}}
               />
             </div>
@@ -93,94 +93,57 @@ export default function HomePage() {
 {/* End Of Right: Image */}
 
 {/* Grid Section */}
-          <div className="row row-cols-1 row-cols-md-3 g-4 mt-5 pt-5 pb-5 text-dark">
+          <div className="row   g-2 mt-3 pt-5 pb-5 text-dark">
             
 {/* Quick Intro Card */}
             <div className="col ps-md-6">
-            <div className="card h-100 shadow text-light" style={{ backgroundColor: '#757d55' }}>
-                <div className="card-body">
-                  <h5 className="card-title fw-bold"style={{color:"#404725"}}>The Journey So Far</h5>
-                  <p className="card-text mt-4">
-                     I'm a self-taught software developer with over{' '}
-                     <strong style={{ color: '#3a5e6a' }}>2 years</strong> of experience. I'm currently working at{' '}
-                     <strong>
-                       <a
-                         href="https://www.levian.com/"
-                         target="_blank"
-                         rel="noopener noreferrer"
-                         style={{ color: '#3a5e6a', textDecoration: 'underline' }}
-                       >
-                         Le Vian
-                       </a>{' '}
-                     </strong>, where I build internal applications that support business operations.
+            <div className="card h-100 shadow text-light card-hover" style={{ backgroundColor: '#908c5a',  minHeight: '450px' }}>
+            <div className="card-body text-start">
+  <h3 className="card-title fw-bold" style={{ color: "#cd8328" }}>The Journey So Far</h3>
+  <p className="card-text mt-4">
+    I'm a self-taught software developer from Long Island, New York with over{' '}
+    <strong style={{ color: '#cd8328' }}>2 years</strong> of experience. I'm currently working at{' '}
+    <strong>
+      <a
+        href="https://www.levian.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ color: '#cd8328', textDecoration: 'underline' }}
+      >
+        Le Vian
+      </a>{' '}
+    </strong>, where I build internal applications that support business operations.
+  </p>
 
-                     <br /><br />
-                     You can learn more about me{' '}
-                     <Link
-                       to="/about"
-                       style={{
-                         color: '#3a5e6a',
-                         textDecoration: 'underline',
-                         
-                       }}
-                     >
-                       <strong>here.</strong>
-                     </Link>
-                    </p>
-                </div>
-              </div>
-            </div>
-{/*End Of Quick Intro Card */}
+  <p className="card-text mt-3">
+    My programming journey started with curiosity and countless hours of building small apps with{' '}
+    <strong style={{ color: '#cd8328' }}>C# and JavaScript</strong>. I quickly expanded into{' '}
+    <strong style={{ color: '#cd8328' }}>React, SQL Server, and ASP.NET</strong>, and haven’t looked back since.
+  </p>
 
-{/* Daily Tech Stack Card */}
-            <div className="col">
-              <div className="card h-100 shadow text-center" style={{ backgroundColor: '#757d55' }}>
-                <div className="card-body">
-                  <h5 className="card-title fw-bold mb-4 fs-4"style={{color:"#404725"}}>My Daily Tools</h5>
-                  <div className="row row-cols-2 g-3 justify-content-center">
-                     <div className="col text-center">
-                       <i className="devicon-dot-net-plain-wordmark" title=".NET" style={{color:"#3a5e6a", fontSize: '3.5rem'}}></i>
-                     </div>
-                     <div className="col text-center">
-                       <i className="devicon-javascript-plain" title="JavaScript" style={{color:"#3a5e6a", fontSize: '3.5rem'}}></i>
-                     </div>
-                     <div className="col text-center">
-                       <i className="devicon-nodejs-plain" title="Node.js" style={{color:"#3a5e6a", fontSize: '3.5rem'}}></i>
-                     </div>
-                     <div className="col text-center">
-                       <i className="devicon-react-original" title="React" style={{color:"#3a5e6a", fontSize: '3.5rem'}}></i>
-                     </div>
-                     <div className="col text-center">
-                       <i className="devicon-microsoftsqlserver-plain" title="SQL Server" style={{color:"#3a5e6a", fontSize: '3.5rem'}}></i>
-                     </div>
-                     <div className="col text-center">
-                       <i className="devicon-graphql-plain" title="GraphQL" style={{color:"#3a5e6a", fontSize: '3.5rem'}}></i>
-                     </div>
-                     <div className="col text-center">
-                      <i className="devicon-visualstudio-plain" title="Visual Studio" style={{ color: '#3a5e6a', fontSize: '3.5rem' }}></i>
-                    </div>
-                    <div className="col text-center">
-                      <i className="devicon-vscode-plain" title="VS Code" style={{ color: '#3a5e6a', fontSize: '3.5rem' }}></i>
-                    </div>
-                    </div>
-                </div>
+  <p className="card-text mt-3">
+    I thrive in backend-heavy projects but also enjoy crafting clean, responsive UIs.
+    Solving business problems with code is what drives me every day.
+  </p>
+
+  <p className="card-text mt-3">
+  You can read about my professional projects{' '}
+  <Link
+    to="/resume"
+    style={{ color: '#cd8328', textDecoration: 'underline' }}
+    
+  >
+   <strong> here </strong>
+  </Link>
+  , including my work on a <strong style={{ color: '#cd8328' }}>RFID Inventory Management System</strong>,
+  building responsive UI components, and integrating REST APIs powered by SQL Server stored procedures to support real-time data flow across multiple departments.
+</p>
+</div>
+
               </div>
             </div>
-{/*End Of Daily Tech Stack Card */}
-            
-{/*Personal Projects Carousel Card */}
-            <div className="col pe-md-8">
-              <div className="card h-100 shadow text-center d-flex flex-column" style={{ backgroundColor: '#757d55' }}>
-                <div className="card-body flex-grow-1" >
-                  <h5 className="card-title fw-bold fs-4" style={{color:"#404725"}}>What I’ve Built</h5>
-                  <ProjectCard {...projects[currentProjectIndex]} techIcons={techIcons} color="#3a5e6a"/>
-                </div>
-                <div className="card-footer bg-transparent border-0 d-flex justify-content-between" >
-                  <button onClick={handlePrev} className="btn btn-outline-secondary btn-sm text-light" style={{ backgroundColor: "#404725"}}>Previous</button>
-                  <button onClick={handleNext} className="btn btn-outline-secondary btn-sm text-light" style={{ backgroundColor: "#404725"}}>Next</button>
-                </div>
-              </div>
-            </div>
+
+          
           </div>
         </div>
       </section>

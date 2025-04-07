@@ -1,0 +1,25 @@
+/* index.css - Clean CSS reset for eurofooty */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #00703C; /* Grass green like a soccer field */
+  font-family: 'Arial', sans-serif;
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
