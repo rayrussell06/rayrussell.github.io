@@ -24,7 +24,7 @@ export default function Footer() {
 
           <div className="col-md-4 text-md-end">
   <a
-    href="https://linkedin.com/in/rayrussell06"
+    href="https://www.linkedin.com/in/ray-russell-698bb7a6/"
     target="_blank"
     rel="noopener noreferrer"
     className="text-light me-3 fs-5 footer-icon"
