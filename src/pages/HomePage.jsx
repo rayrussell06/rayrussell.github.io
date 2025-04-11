@@ -99,7 +99,7 @@ export default function HomePage() {
             <div className="col ps-md-6">
             <div className="card h-100 shadow text-light card-hover" style={{ backgroundColor: '#908c5a',  minHeight: '450px' }}>
             <div className="card-body text-start">
-  <h3 className="card-title fw-bold" style={{ color: "#cd8328" }}>The Journey So Far</h3>
+  <h3 className="card-title fw-bold text-center" style={{ color: "#cd8328" }}>About Me</h3>
   <p className="card-text mt-4">
     I'm a self-taught software developer from Long Island, New York with over{' '}
     <strong style={{ color: '#cd8328' }}>2 years</strong> of experience. I'm currently working at{' '}
