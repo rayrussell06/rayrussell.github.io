@@ -47,6 +47,9 @@ html, body {
   color: #888;
 }
 
+section {
+  background: transparent !important;
+}
 
 
 /*Wave animation*/
@@ -210,6 +213,9 @@ footer {
   color: white !important;
 }
 
+.container, .container-fluid {
+  background: transparent !important;
+}
 
 @keyframes wave-animation {
   0% { transform: rotate(0deg); }
