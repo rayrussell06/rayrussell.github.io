@@ -20,7 +20,7 @@ function App() {
   
     if (allImages.length === 0) {
       // ⏳ Simulate slow loading
-      setLoading(false); 
+      setTimeout(() => setLoading(false), 1500);
       return;
     }
   
@@ -50,17 +50,19 @@ function App() {
       {loading && <Loader />}
       {!loading && (
         <Router>
-          <Navbar />
-         
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-            {/* <Route path="/about" element={<AboutPage />} />*/}
-            {/* <Route path="/projects" element={<ProjectsPage />} /> */}
-            <Route path="/resume" element={<ResumePage />} />
-          </Routes>
-         
-          <Footer />
-        </Router>
+  <Navbar />
+
+  <main style={{ flexGrow: 1 }}>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/resume" element={<ResumePage />} />
+    </Routes>
+  </main>
+
+  <Footer />
+</Router>
+
+  
       )}
     </>
   );
